@@ -6,8 +6,6 @@
 class Solution:
     def trap(self, height: list[int]) -> int:
         n = len(height)
-        if n == 0:
-            return 0
 
         max_left = [0] * n
         max_right = [0] * n
